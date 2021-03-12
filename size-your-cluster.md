@@ -34,7 +34,7 @@ If you choose the **t1.standard** tier on AWS and each TiKV node has 1900 GB sto
 
 TiFlash synchronizes data from TiKV in real time and supports real-time analytics workloads right out of the box, It is horizontally scalable. You can specify TiFlash nodes if you choose **H1.standard** tier.
 
-The number of TiFlash depends on the TiFlash replica counts for specific tables.
+The minimun number of TiFlash depends on the TiFlash replica counts for specific tables.
 
 - Minimun number of TiFlash nodes: min((compressed size of table A * replica for table A + compressed size of table B * replica for table B) / size of each TiFlash capacity, max(replica for table A, replica for table B))
 
