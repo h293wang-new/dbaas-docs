@@ -27,8 +27,7 @@ Supposing the size of your MySQL dump files is 5 TB and the TiDB compression rat
 
 If you choose the **t1.standard** tier on AWS and each TiKV node has 1900 GB storage, then the required number of TiKV nodes are as follows:
 
-- Minimum number of TiKV nodes:  3584 ÷ 1900 × 3 (replica) ≈ 6
-
+- Minimum number of TiKV nodes:  `3584 ÷ 1900 × 3 (replica) ≈ 6`
 
 ## Size TiFlash
 
@@ -36,8 +35,8 @@ TiFlash synchronizes data from TiKV in real time and supports real-time analytic
 
 The minimun number of TiFlash depends on the TiFlash replica counts for specific tables.
 
-- Minimun number of TiFlash nodes: min((compressed size of table A * replica for table A + compressed size of table B * replica for table B) / size of each TiFlash capacity, max(replica for table A, replica for table B))
+- Minimun number of TiFlash nodes: `min((compressed size of table A * replicas for table A + compressed size of table B * replicas for table B) / size of each TiFlash capacity, max(replicsa for table A, replicas for table B))`
 
 For example, if you choose the **H1.standard** tier on AWS whose TiFlash node has 1900 GB storage, you set 2 replicas for table A (compressed size is 800GB) and 1 replica for table B (compressed size is 100GB). Then the TiFlash nodes are as follows:
 
-- Minimun number of TiFlash nodes: min((800GB * 2 + 100GB * 1) / 1900GB, max(2, 1)) ≈ 2
+- Minimun number of TiFlash nodes: `min((800GB * 2 + 100GB * 1) / 1900GB, max(2, 1)) ≈ 2`
