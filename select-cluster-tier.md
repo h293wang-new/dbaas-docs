@@ -19,20 +19,16 @@ When creating a cluster, you need to select a cluster tier, which determines the
 
 | Cluster tier | Node | CPU | Storage | Scenario |
 | :-- | :-- | :-- | :-- | :-- |
-| t1.tiny | TiKV | 2 vCPU | 50 G EBS | Testing or development |
-| t1.tiny | TiDB | 2 vCPU | / | Testing or development |
-| t1.standard | TiKV | 8 vCPU | 1900 G NVMe | Production |
+| t1.standard | TiKV | 8 vCPU | 1900 G | Production |
 | t1.standard | TiDB | 8 vCPU | / | Production |
-| h1.standard | TiKV | 8 vCPU | 1900 G NVMe | Production |
-| h1.standard | TiFlash | 8 vCPU | 1900 G NVMe | Production |
+| h1.standard | TiKV | 8 vCPU | 1900 G | Production |
+| h1.standard | TiFlash | 8 vCPU | 1900 G | Production |
 | h1.standard | TiDB | 8 vCPU | / | Production |
 
 ## GCP Tiers
 
 | Cluster tier | Node | CPU | Storage | Scenario |
 | :-- | :-- | :-- | :-- | :-- |
-| t1.tiny | TiKV | 1 vCPU | 50 G | Testing or development|
-| t1.tiny | TiDB | 1 vCPU | / | Testing or development|
 | t1.standard | TiKV | 8 vCPU | 1875 G | Production |
 | t1.standard | TiDB | 8 vCPU | / | Production |
 | h1.standard | TiKV | 8 vCPU | 1875 G | Production |
