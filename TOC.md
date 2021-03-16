@@ -22,7 +22,7 @@
   + [Use an HTAP Cluster](use-htap-cluster.md)
   + Backup and Restore Data
     + [Automatic Backup](backup-and-restore.md)
-    + [Ad-hoc Backup](backup-and-restore.md#ad-hoc-backup)
+    + [Manual Backup](backup-and-restore.md#manual-backup)
     + [Restore](backup-and-restore.md#restore)
   + Tune Performance
     + [Statement Analysis](tune-performance.md)
