@@ -11,7 +11,7 @@ This document describes how to back up and restore your TiDB cluster data on TiD
 
 ## Backup
 
-TiDB Cloud provides two types of data backup: automatic backup and ad-hoc backup.
+TiDB Cloud provides two types of data backup: automatic backup and manual backup.
 
 ## Automatic backup
 
@@ -25,15 +25,11 @@ Automatic backups  back up the cluster data every day at the backup time you hav
 
 4. Click **Confirm**.
 
-> **Note:**
->
-> Automatic Backup Retention time = limit backup number × 1 day
+## Manual backup
 
-## Ad-hoc backup
+Manual backups are user-initiated backups that enable you to back up your data to a known state as needed, and then restore to that state at any time.
 
-Ad-hoc backups are user-initiated backups that enable you to back up your data to a known state as needed, and then restore to that state at any time.
-
-To apply an ad-hoc backup to your TiDB cluster, perform the following steps:
+To apply a manual backup to your TiDB cluster, perform the following steps:
 
 1. Navigate to the **Backup** tab of a cluster.
 
