@@ -11,15 +11,15 @@ This document describes how to create a TiDB Cloud cluster.
 
 1. Log in to TiDB Cloud.
 
-    Open <https://tidbcloud.com> in a browser and click **Sign in with Google**. The TiDB Cluster page displays.
+    Open <https://tidbcloud.com> in a browser and sign in with user name and password.
 
 2. Select Cloud Provider.
 
-    On the **TiDB Cluster** page, click the cloud service provider icon on the left of the top navigation bar, and select the cloud provider. The existing options are Amazon Web Services and Google Cloud.
+    Click the cloud service provider icon on the left of the top navigation bar, and select the cloud provider. The existing options are Amazon Web Services and Google Cloud.
 
 3. Access the **Create Cluster** page.
 
-    On the TiDB Cluster page, click **Create Cluster** on the upper right. The Create Cluster page is displayed.
+    On the TiDB Cloud console’s homepage, click **Create Cluster**. The Create Cluster page is displayed.
 
 4. Set the cluster name and the root password.
 
@@ -34,9 +34,17 @@ This document describes how to create a TiDB Cloud cluster.
 
     Click to select your cluster tier, which determines the throughput and performance of your cluster. You cannot change it after the cluster is created. See [Select Your Cluster Tier](select-cluster-tier.md) for details.
 
+>**Note:**
+>
+>TiDB Cloud Public Preview Free Trial user only have access to t1.standard cluster tier.
+
 7. Select the number of nodes.
 
     Set the number of your TiDB nodes and TiKV nodes respectively by clicking the plus or the minus sign. See [Size Your Cluster](size-your-cluster.md) for details.
+
+>**Note:**
+>
+> TiDB Cloud Public Preview Free Trial user cannot change the number of TiDB and TiKV nodes.
 
 8. Click **Submit**.
 
