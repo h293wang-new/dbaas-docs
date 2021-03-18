@@ -13,4 +13,4 @@ TiDB Cloud offers support services to your organization. To contact our support 
 
 3. Click **Send** to submit your request.
 
-4. Please check your email to view the status of your request history and communication records. You can continue to communicate with the support team before the request is closed.
+4. Check your email to view the status of your request history and communication records. You can continue to communicate with the support team before the request is closed.
