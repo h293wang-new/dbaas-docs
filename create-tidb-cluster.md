@@ -19,7 +19,7 @@ This document describes how to create a TiDB Cloud cluster.
 
 3. Access the **Create Cluster** page.
 
-    On the TiDB Cloud console’s homepage, click **Create Cluster**. The Create Cluster page is displayed.
+    On the TiDB Cloud console's homepage, click **Create a Cluster**. The Create a Cluster page is displayed.
 
 4. Set the cluster name and the root password.
 
