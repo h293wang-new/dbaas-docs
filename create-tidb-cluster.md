@@ -34,9 +34,9 @@ This document describes how to create a TiDB Cloud cluster.
 
     Click to select your cluster tier, which determines the throughput and performance of your cluster. You cannot change it after the cluster is created. See [Select Your Cluster Tier](select-cluster-tier.md) for details.
 
-    >**Note:**
+    > **Note:**
     >
-    >TiDB Cloud Public Preview Free Trial user only have access to t1.standard cluster tier.
+    > TiDB Cloud Public Preview Free Trial users have access only to the t1.standard cluster tier.
 
 7. Select the number of nodes.
 
