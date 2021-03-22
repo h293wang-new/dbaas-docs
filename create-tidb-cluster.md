@@ -42,9 +42,9 @@ This document describes how to create a TiDB Cloud cluster.
 
     Set the number of your TiDB nodes and TiKV nodes respectively by clicking the plus or the minus sign. See [Size Your Cluster](size-your-cluster.md) for details.
 
-    >**Note:**
+    > **Note:**
     >
-    > TiDB Cloud Public Preview Free Trial user cannot change the number of TiDB and TiKV nodes.
+    > TiDB Cloud Public Preview Free Trial users cannot change the number of TiDB and TiKV nodes.
 
 8. Click **Submit**.
 
