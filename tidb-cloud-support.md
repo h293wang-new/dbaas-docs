@@ -9,7 +9,7 @@ TiDB Cloud offers support services to your organization. To contact our support 
 
 1. Click **Support** on the upper right of the top navigation bar, and click **Contact Support**.
 
-2. File your ticket with the pop-up Zendesk Widget.
+2. On the pop-up Zendesk widget, fill in your request.
 
 3. Click **Send** to submit your request.
 
