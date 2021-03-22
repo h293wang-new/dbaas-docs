@@ -11,7 +11,7 @@ This document describes how to manage the user access in your TiDB Cloud cluster
 
 ## Sign in
 
-Navigate to the TiDB Cloud login page: <https://tidbcloud.com>.
+1. Navigate to the TiDB Cloud login page: <https://tidbcloud.com>.
 
 Enter your user name and password, and click sign in.
 
