@@ -7,7 +7,7 @@ summary: Learn how to contact the support team of TiDB Cloud.
 
 TiDB Cloud offers support services to your organization. To contact our support team, perform the following steps:
 
-1. Click **Support** on the upper right of the top navigation bar, and click **Contact Support**.
+1. Click **Support** on the upper right of the top navigation bar, and click **Contact Support**. Or directly click the **Help** icon on the lower right.
 
 2. On the pop-up Zendesk widget, fill in your request.
 
