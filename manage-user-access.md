@@ -15,7 +15,7 @@ This document describes how to manage the user access in your TiDB Cloud cluster
 
 2. Enter your user name and password, and click **Sign In**.
 
-If you already created a TiDB Cloud account using your Google account, sign in to your Google account.
+If you already created a TiDB Cloud account using your Google account, click **Sign in with Google**.
 
 ## Sign out
 
